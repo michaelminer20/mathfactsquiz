@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1635D11F6B4F8B0068C84C /* MathFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1635D01F6B4F8B0068C84C /* MathFact.swift */; };
 		4C18CE1C1F63284500EE6CED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C18CE1B1F63284500EE6CED /* AppDelegate.swift */; };
-		4C18CE1E1F63284500EE6CED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C18CE1D1F63284500EE6CED /* ViewController.swift */; };
-		4C18CE211F63284500EE6CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C18CE1F1F63284500EE6CED /* Main.storyboard */; };
+		4C18CE1E1F63284500EE6CED /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C18CE1D1F63284500EE6CED /* HomeController.swift */; };
 		4C18CE231F63284500EE6CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C18CE221F63284500EE6CED /* Assets.xcassets */; };
-		4C18CE261F63284500EE6CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C18CE241F63284500EE6CED /* LaunchScreen.storyboard */; };
 		4C18CE311F63284500EE6CED /* mathfactsquizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C18CE301F63284500EE6CED /* mathfactsquizTests.swift */; };
 		4C18CE3C1F63284500EE6CED /* mathfactsquizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C18CE3B1F63284500EE6CED /* mathfactsquizUITests.swift */; };
+		4C18CE4C1F6330DC00EE6CED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C18CE4B1F6330DC00EE6CED /* Extensions.swift */; };
+		4C18CE4E1F63322E00EE6CED /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C18CE4D1F63322E00EE6CED /* DashboardController.swift */; };
+		4C344E781F646815005ECEDA /* KeyboardResizedContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C344E771F646815005ECEDA /* KeyboardResizedContainerView.swift */; };
+		4C81281C1F6DC4B400982532 /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C81281B1F6DC4B400982532 /* QuizController.swift */; };
+		4C81281E1F6DCCFF00982532 /* MathFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C81281D1F6DCCFF00982532 /* MathFactView.swift */; };
+		4CDC374C1F633B7700225CAD /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC374B1F633B7700225CAD /* Values.swift */; };
+		5A83B4D0183666AB6BB9D887 /* Pods_mathfactsquiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1576F5EB9A67889CD81CA1CC /* Pods_mathfactsquiz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1576F5EB9A67889CD81CA1CC /* Pods_mathfactsquiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mathfactsquiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1635D01F6B4F8B0068C84C /* MathFact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathFact.swift; sourceTree = "<group>"; };
 		4C18CE181F63284500EE6CED /* mathfactsquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mathfactsquiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C18CE1B1F63284500EE6CED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C18CE1D1F63284500EE6CED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C18CE201F63284500EE6CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C18CE1D1F63284500EE6CED /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		4C18CE221F63284500EE6CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C18CE251F63284500EE6CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C18CE271F63284500EE6CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C18CE2C1F63284500EE6CED /* mathfactsquizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathfactsquizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C18CE301F63284500EE6CED /* mathfactsquizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathfactsquizTests.swift; sourceTree = "<group>"; };
@@ -47,6 +53,16 @@
 		4C18CE371F63284500EE6CED /* mathfactsquizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathfactsquizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C18CE3B1F63284500EE6CED /* mathfactsquizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathfactsquizUITests.swift; sourceTree = "<group>"; };
 		4C18CE3D1F63284500EE6CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C18CE4B1F6330DC00EE6CED /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4C18CE4D1F63322E00EE6CED /* DashboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		4C344E771F646815005ECEDA /* KeyboardResizedContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardResizedContainerView.swift; sourceTree = "<group>"; };
+		4C81281B1F6DC4B400982532 /* QuizController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
+		4C81281D1F6DCCFF00982532 /* MathFactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathFactView.swift; sourceTree = "<group>"; };
+		4CDC374B1F633B7700225CAD /* Values.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
+		521D245F541503AAAE199219 /* Pods-mathfactsquiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mathfactsquiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mathfactsquiz/Pods-mathfactsquiz.debug.xcconfig"; sourceTree = "<group>"; };
+		7552DEB6E7DFB9933F610EA5 /* Pods-mathfactsquiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mathfactsquiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-mathfactsquiz/Pods-mathfactsquiz.release.xcconfig"; sourceTree = "<group>"; };
+		AB7BBF0529D8505F27BBA88D /* Pods_mathfactsquizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mathfactsquizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F158455EF983C454C48FFCA2 /* Pods_mathfactsquizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mathfactsquizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A83B4D0183666AB6BB9D887 /* Pods_mathfactsquiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		312F4B0B8C84FD4E7F72D243 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1576F5EB9A67889CD81CA1CC /* Pods_mathfactsquiz.framework */,
+				F158455EF983C454C48FFCA2 /* Pods_mathfactsquizTests.framework */,
+				AB7BBF0529D8505F27BBA88D /* Pods_mathfactsquizUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		469CA7BAB27177240C2961A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				521D245F541503AAAE199219 /* Pods-mathfactsquiz.debug.xcconfig */,
+				7552DEB6E7DFB9933F610EA5 /* Pods-mathfactsquiz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C1635CF1F6B4F420068C84C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C1635D01F6B4F8B0068C84C /* MathFact.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		4C18CE0F1F63284500EE6CED = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				4C18CE2F1F63284500EE6CED /* mathfactsquizTests */,
 				4C18CE3A1F63284500EE6CED /* mathfactsquizUITests */,
 				4C18CE191F63284500EE6CED /* Products */,
+				469CA7BAB27177240C2961A9 /* Pods */,
+				312F4B0B8C84FD4E7F72D243 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +143,13 @@
 		4C18CE1A1F63284500EE6CED /* mathfactsquiz */ = {
 			isa = PBXGroup;
 			children = (
-				4C18CE1B1F63284500EE6CED /* AppDelegate.swift */,
-				4C18CE1D1F63284500EE6CED /* ViewController.swift */,
-				4C18CE1F1F63284500EE6CED /* Main.storyboard */,
+				4C1635CF1F6B4F420068C84C /* Model */,
+				4C344E761F6467DE005ECEDA /* View */,
+				4C18CE491F632F2300EE6CED /* Controller */,
+				4CDC374A1F633B6800225CAD /* Supporting Files */,
 				4C18CE221F63284500EE6CED /* Assets.xcassets */,
-				4C18CE241F63284500EE6CED /* LaunchScreen.storyboard */,
 				4C18CE271F63284500EE6CED /* Info.plist */,
+				4C18CE1B1F63284500EE6CED /* AppDelegate.swift */,
 			);
 			path = mathfactsquiz;
 			sourceTree = "<group>";
@@ -125,6 +172,34 @@
 			path = mathfactsquizUITests;
 			sourceTree = "<group>";
 		};
+		4C18CE491F632F2300EE6CED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C18CE1D1F63284500EE6CED /* HomeController.swift */,
+				4C18CE4D1F63322E00EE6CED /* DashboardController.swift */,
+				4C81281B1F6DC4B400982532 /* QuizController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4C344E761F6467DE005ECEDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C344E771F646815005ECEDA /* KeyboardResizedContainerView.swift */,
+				4C81281D1F6DCCFF00982532 /* MathFactView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4CDC374A1F633B6800225CAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C18CE4B1F6330DC00EE6CED /* Extensions.swift */,
+				4CDC374B1F633B7700225CAD /* Values.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C18CE401F63284500EE6CED /* Build configuration list for PBXNativeTarget "mathfactsquiz" */;
 			buildPhases = (
+				A161AAB938647B03570E91C0 /* [CP] Check Pods Manifest.lock */,
 				4C18CE141F63284500EE6CED /* Sources */,
 				4C18CE151F63284500EE6CED /* Frameworks */,
 				4C18CE161F63284500EE6CED /* Resources */,
+				FDAE68131A5E4CC0A6D634EF /* [CP] Embed Pods Frameworks */,
+				74B94EC2CFB60EBAD2A74D1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +271,7 @@
 				TargetAttributes = {
 					4C18CE171F63284500EE6CED = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JNJXDSD7E8;
 						ProvisioningStyle = Automatic;
 					};
 					4C18CE2B1F63284500EE6CED = {
@@ -232,9 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C18CE261F63284500EE6CED /* LaunchScreen.storyboard in Resources */,
 				4C18CE231F63284500EE6CED /* Assets.xcassets in Resources */,
-				4C18CE211F63284500EE6CED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +331,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74B94EC2CFB60EBAD2A74D1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mathfactsquiz/Pods-mathfactsquiz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A161AAB938647B03570E91C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mathfactsquiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDAE68131A5E4CC0A6D634EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mathfactsquiz/Pods-mathfactsquiz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mathfactsquiz/Pods-mathfactsquiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C18CE141F63284500EE6CED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C18CE1E1F63284500EE6CED /* ViewController.swift in Sources */,
+				4C81281E1F6DCCFF00982532 /* MathFactView.swift in Sources */,
+				4C18CE1E1F63284500EE6CED /* HomeController.swift in Sources */,
+				4C18CE4C1F6330DC00EE6CED /* Extensions.swift in Sources */,
+				4C18CE4E1F63322E00EE6CED /* DashboardController.swift in Sources */,
+				4CDC374C1F633B7700225CAD /* Values.swift in Sources */,
+				4C81281C1F6DC4B400982532 /* QuizController.swift in Sources */,
+				4C344E781F646815005ECEDA /* KeyboardResizedContainerView.swift in Sources */,
+				4C1635D11F6B4F8B0068C84C /* MathFact.swift in Sources */,
 				4C18CE1C1F63284500EE6CED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,25 +432,6 @@
 			targetProxy = 4C18CE381F63284500EE6CED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4C18CE1F1F63284500EE6CED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C18CE201F63284500EE6CED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4C18CE241F63284500EE6CED /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C18CE251F63284500EE6CED /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4C18CE3E1F63284500EE6CED /* Debug */ = {
@@ -412,24 +531,36 @@
 		};
 		4C18CE411F63284500EE6CED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521D245F541503AAAE199219 /* Pods-mathfactsquiz.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JNJXDSD7E8;
 				INFOPLIST_FILE = mathfactsquiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.michaelpav.mathfactsquiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelpav.mathfactsquizapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4C18CE421F63284500EE6CED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7552DEB6E7DFB9933F610EA5 /* Pods-mathfactsquiz.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JNJXDSD7E8;
 				INFOPLIST_FILE = mathfactsquiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.michaelpav.mathfactsquiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelpav.mathfactsquizapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,6 +638,7 @@
 				4C18CE421F63284500EE6CED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C18CE431F63284500EE6CED /* Build configuration list for PBXNativeTarget "mathfactsquizTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +647,7 @@
 				4C18CE451F63284500EE6CED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C18CE461F63284500EE6CED /* Build configuration list for PBXNativeTarget "mathfactsquizUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +656,7 @@
 				4C18CE481F63284500EE6CED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
